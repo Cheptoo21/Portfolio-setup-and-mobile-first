@@ -4,7 +4,7 @@
 
  <!-- LOGO -->
 
-  <img src="my logo.png"  height="auto" />
+  
   <br/>
 
 <!-- MAIN HEADING -->
@@ -60,7 +60,7 @@ I created my portfolio using HTML, CSS with Linters and Figma templates.
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="">Live Demo Link</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
