@@ -58,7 +58,7 @@ I created my portfolio using HTML, CSS with Linters and Figma templates.
 </details>
 
 <!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
+
 
 
 
