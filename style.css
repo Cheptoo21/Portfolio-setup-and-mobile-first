@@ -90,7 +90,7 @@ button:active {
   margin-top: 100px;
 }
 
-/* .works_content {
+.works_content {
   margin-top: 25px;
   display: flex;
   flex-direction: column;
@@ -157,7 +157,7 @@ button:active {
 
 /* About */
 
-/* .about {
+.about {
   margin-top: 25px;
 }
 
@@ -225,7 +225,7 @@ button:active {
   font-size: 12px;
   color: #36b37e;
   border-radius: 8px;
-} */
+}
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .headline {
@@ -239,7 +239,7 @@ button:active {
     margin-top: 17%;
   }
 
-  /* .works_content h1 {
+  .works_content h1 {
     padding: 0 30px;
     margin-bottom: 25px;
   }
@@ -254,7 +254,7 @@ button:active {
   }
 
   .about_content {
-    background-image: url("Assets/about\ me-illustration-mobile.png");
+    background-image: url("logo/about\ me-illustration-mobile.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 350.38px;
@@ -263,11 +263,11 @@ button:active {
   .box img {
     width: 160px;
     margin-bottom: -50px;
-  } */
+  }
 }
 
-/* .illustration1 {
+.illustration1 {
   display: flex;
   align-items: center;
   justify-content: end;
-} */
+}
