@@ -37,9 +37,10 @@
 - [📝 License](#license)
 
 <!-- INTRO -->
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 PORTFOLIO <a name="about-project"></a>
 
-I created my portfolio using HTML, CSS with Linters and Figma templates.
+Portfolio is a project built using HTML5 and CSS3.
+It shows my understanding of Gitflow,grid,figma and Linters.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. HTML
@@ -58,7 +59,11 @@ I created my portfolio using HTML, CSS with Linters and Figma templates.
 </details>
 
 <!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
+
+
+- [Live Demo Link](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first/)
 
 
 
@@ -70,9 +75,12 @@ I created my portfolio using HTML, CSS with Linters and Figma templates.
 
 ### Key Features <a name="key-features"></a>
 
-- Added HTML
-- Added CSS
-- Added Linters
+- **[Navigation bar in Header-Section]**
+- **[Homepage of Personal Portfolio]**
+- **[Built Work-Section]**
+- **[Built About-Section]**
+- **[Built Language-Section]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,6 +119,14 @@ Install this project with the latest version of Git and a code editor.
 
 In order to run the project open index.html with live server.
 
+### Run tests
+
+To run tests, run the following command:
+
+- To run tests run :
+- npx hint .
+- npx stylelint "\*_/_.{css,scss}"
+
 ### Deployment
 
 You can deploy this project using:
@@ -136,9 +152,13 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **My Projects**
-- [ ] **My Languages Frameworks**
-- [ ] **My Contacts**
+- [ ] **[Desktop Version]**
+- [ ] **[Application deploy]**
+- [ ] **[Evaluate accessibility (pair programming)]**
+- [ ] **[Validate contact form (pair programming)]**
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +193,8 @@ Special acknowledgement to [@Omar-Muhamad](https://github.com/Omar-Muhamad) and 
 
 - **What new features should be expected in the next release of the project?**
 
-  - We are currently working on adding **My Projects**, **My Languages Frameworks**, and **My Contacts**.
+  - We are currently working on adding **[Desktop Version**],**[Application deploy]**,**[Evaluate accessibility(pair programming)]**,[**Validate contact form (pair programming)]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
