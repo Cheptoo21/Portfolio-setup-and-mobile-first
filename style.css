@@ -258,6 +258,7 @@ button:active {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: -80%;
 }
 
 .contactForm ul li input {
@@ -296,11 +297,12 @@ button:active {
 
 .contact .socialIcons {
   margin: 15px 0;
+  margin-bottom: -80%;
 }
 
 .contactBackground img {
   position: relative;
-  bottom: 175px;
+  bottom: -140px;
   right: -150px;
 }
 
