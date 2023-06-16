@@ -76,6 +76,12 @@ button:active {
   color: #36b37e;
 }
 
+.title:hover {
+  background-color: var(#fff);
+  color: #344563;
+  border-color: var(#fff);
+}
+
 .description {
   padding: 15px 20px;
 }
