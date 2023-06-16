@@ -1,4 +1,3 @@
-
 * {
   margin: 0%;
   padding: 0%;
@@ -41,9 +40,12 @@ button:active {
 }
 
 .toolbar button {
-  margin-right: 25px;
   border: none;
   background: none;
+}
+
+.toolbar ul {
+  display: none;
 }
 
 .headline {
@@ -52,23 +54,30 @@ button:active {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-image: url("logo/Header-llustration-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 653.32px;
   width: 100%;
 }
 
-.title h1 {
+.headline_content {
+  margin-top: 70px;
+}
+
+.title h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 52px;
 }
 
-.title h1 span {
+.title h3 span {
   color: #36b37e;
 }
 
 .description {
-  padding: 0 20px;
-  margin: 5% 0%;
+  padding: 15px 20px;
 }
 
 .description p {
@@ -88,9 +97,10 @@ button:active {
 }
 
 .action {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
+/* PORTFOLIO/WORKS */
 .works_content {
   margin-top: 25px;
   display: flex;
@@ -107,6 +117,14 @@ button:active {
   line-height: 52px;
   padding: 0 25px;
   margin-bottom: 15px;
+}
+
+.works_cards {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(6, 475px);
+  padding: 3% 5%;
+  gap: 15px;
 }
 
 .works_cards .card {
@@ -157,7 +175,6 @@ button:active {
 }
 
 /* About */
-
 .about {
   margin-top: 25px;
 }
@@ -191,8 +208,16 @@ button:active {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  margin-bottom: 85px;
+  margin-bottom: 80px;
   padding: 0 15px;
+}
+
+.about_boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -350px;
 }
 
 .box h3 {
@@ -201,15 +226,6 @@ button:active {
   font-size: 24px;
   line-height: 32px;
   color: #344563;
-}
-
-.contactHeading h3 {
-  color: #172b4d;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  padding: 0 10px;
-  text-align: center;
 }
 
 .about_content .illustration1 h3 {
@@ -234,16 +250,11 @@ button:active {
   border-radius: 10px;
 }
 
-.about_boxes.box {
-  align-content: left;
-  padding-left: 50px;
-}
-
 .box ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  gap: 5px;
+  gap: 10px;
 }
 
 .box ul li {
@@ -251,24 +262,37 @@ button:active {
   padding: 8px 12px;
   font-size: 12px;
   color: #36b37e;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
+/* CONTACT */
 .contact {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-bottom: -80%;
+}
+
+.contact .contactHeading h3 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 15px;
+  margin: 3% 1%;
+  margin-top: 5%;
+}
+
+.contactForm ul {
+  list-style: none;
 }
 
 .contactForm ul li input {
-  border: 1px solid #d0d9d4;
+  border: 1px solid #60c095;
   border-radius: 4px;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  margin: 10px 0;
+  margin-bottom: 10%;
   padding: 8px 20px;
   width: 70%;
 }
@@ -286,54 +310,211 @@ button:active {
 }
 
 .contactForm ul li button {
-  margin: 15px 0;
+  margin-top: 10%;
 }
 
-.contactForm p {
+.contactEmail {
+  background-image: url("logo/illustration-contact-form.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 50px 0;
+  text-align: center;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
 }
 
-.contact .socialIcons {
+.contactBackground {
+  visibility: hidden;
+}
+
+.socialIcons {
   margin: 15px 0;
-  margin-bottom: -80%;
 }
 
-.contactBackground img {
-  position: relative;
-  bottom: -140px;
-  right: -150px;
-}
+@media screen and (min-width: 768px) {
+  /* TOOLBAR */
+  .toolbar {
+    justify-content: center;
+  }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+  .toolbar button {
+    display: none;
+  }
+
+  .toolbar ul {
+    width: 15%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .toolbar ul li {
+    justify-content: space-between;
+    padding: 10px 12px;
+    color: #344563;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* HEADLINE */
   .headline {
-    background-image: url("logo/header-illsutration-mobile.png");
-    background-repeat: no-repeat;
+    background-image: url("logo/Header-llustration-desktop@2x.png");
+    background-size: contain;
     background-position: center;
-    height: 653.32px;
+    background-repeat: no-repeat;
   }
 
   .headline_content {
-    margin-top: 17%;
+    margin-top: -70px;
   }
 
-  .works_content h1 {
-    padding: 0 30px;
-    margin-bottom: 25px;
+  .headline_content .title div {
+    display: flex;
+    justify-content: center;
   }
+
+  .about_description p {
+    margin-bottom: 15px;
+  }
+
+  .headline_content .description p {
+    padding: 0 28.25%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .action {
+    margin-top: 50px;
+  }
+
+  /* PORTFOLIO */
 
   .works_cards {
-    margin-top: 25px;
     display: grid;
-    grid-template-columns: auto;
-    padding: 5%;
-    grid-template-rows: repeat(6, 475px);
-    gap: 20px;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: auto;
+    padding: 3% 5%;
+    gap: 15px;
+  }
+
+  .works_cards .card {
+    height: 550px;
+  }
+
+  /* ABOUT */
+  .illustration1 img {
+    display: none;
+  }
+
+  .illustration2 img {
+    display: none;
+  }
+
+  .about_content {
+    background-image:
+      url("logo/illustration-about-me-2-desktop@2x.png"),
+      url("logo/illustration-about\ me-1-desktop@2x.png");
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+  }
+
+  .about_description {
+    top: 60px;
+    padding: 0% 19.75%;
+  }
+
+  .about_boxes {
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 125px;
   }
 
   .box img {
     width: 160px;
     margin-bottom: -50px;
+  }
+
+  /* CONTACT */
+  .contact {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    margin-top: 1%;
+    height: 65vh;
+  }
+
+  .contact .contactHeading {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+
+  .contact .contactHeading h3 {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: start;
+    padding: 0 5% 0 15%;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+    width: 50%;
+  }
+
+  .contactEmail {
+    display: none;
+  }
+
+  .contactForm ul li input {
+    margin-bottom: 3%;
+    width: 100%;
+  }
+
+  .contactForm ul li textarea {
+    width: 100%;
+  }
+
+  .contactForm ul li button {
+    margin-top: 2%;
+  }
+
+  .contactBackground {
+    visibility: visible;
+    position: relative;
+  }
+
+  .contactBackground .illustration1 {
+    position: absolute;
+    left: 0;
+    top: -50px;
+  }
+
+  .contactBackground .illustration2 {
+    position: absolute;
+    top: 105px;
+    left: 200px;
+  }
+
+  .contactBackground .illustration3 {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: -213px;
+  }
+
+  .footer {
+    position: relative;
+    height: 30px;
+    top: 280px;
   }
 }
