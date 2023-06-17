@@ -373,7 +373,7 @@ button:active {
   .headline {
     height: 160vh;
     background-image: url("logo/Header-llustration-desktop@2x.png");
-    background-size: 170%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -589,6 +589,10 @@ button:active {
     flex-direction: column;
     height: 25px;
     top: 195px;
-    border-top: 2px solid #3a4a42;
+    border-top: 1px solid gray;
+  }
+
+  .socialIcons {
+    padding-top: 5px;
   }
 }
