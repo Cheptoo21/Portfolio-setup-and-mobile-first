@@ -12,6 +12,7 @@
 
 <body>
     <!-- Toolbar -->
+    <header>
     <nav class="toolbar">
         <button><img src="logo/Icon - Menu.png" alt="hamburger"></button>
         <ul>
@@ -20,13 +21,13 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+    </header>
     <!-- Headline -->
     <section class="headline">
         <div class="headline_content">
             <div class="title">
                 <div>
-                    <h3>Hey there.</h3>
-                    <h3>I'm Cheptoo.</h3>
+                    <h1>Hey there.<br>Cheptoo</h3>
                 </div>
                 <h3><span>I'm a software developer</span></h3>
             </div>
@@ -61,7 +62,7 @@
                     <li>
                         <a href="#"><img src="logo/angellist.png" alt=""></a>
                     </li>
-
+    
                 </ul>
             </div>
             <div class="action">
@@ -203,7 +204,7 @@
             <div class="box">
                 <div> <img src="logo/icon-frameworks.png" alt="Frameworks"></div>
                 <h3>Frameworks</h3>
-                <ul>
+                <ul class="listMarginBottom">
                     <li>React.js</li>
                     <li>Ruby on Rails</li>
                     <li>RSpec</li>
@@ -216,7 +217,7 @@
             <div class="box">
                 <div> <img src="logo/icon-skills.png" alt="Skils"></div>
                 <h3>Skils</h3>
-                <ul>
+                <ul class="listMarginBottom">
                     <li>Database Management</li>
                     <li>Version Control</li>
 
@@ -240,14 +241,14 @@
             <form action="https://formspree.io/f/moqzgvge" method="POST">
                 <ul>
                     <li>
-                        <input name="fullName" type="text" placeholder="Full Name" maxlength="30" required>
+                        <input name="fullName" type="text" placeholder="Full name" maxlength="30" required>
                     </li>
                     <li>
                         <input name="email" type="email" placeholder="Email address" required>
                     </li>
                     <li>
                         <textarea name="messageBox" maxlength="500" cols="40" rows="5"
-                            placeholder="Hey I’d like to connect to..." required></textarea>
+                            placeholder="Hey I’d like to connect to..." required> </textarea>
                     </li>
                     <li>
                         <button type="submit" value="">Get in Touch</button>
@@ -264,7 +265,8 @@
         <img class="illustration3" src="logo/illustration-contact-form.png" alt="Illustration3">
 
     </div>
-    <footer>
+    <section class="footer">
+        <hr>
         <div class="socialIcons">
             <ul>
                 <li>
@@ -291,7 +293,7 @@
 
             </ul>
         </div>
-    </footer>
+    </section>
 </body>
 
 </html>
