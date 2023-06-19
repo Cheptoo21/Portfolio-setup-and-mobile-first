@@ -1,207 +1,199 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
- <!-- LOGO -->
-
-  
-  <br/>
-
-<!-- MAIN HEADING -->
-
-  <h3><b>Portfolio</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- INTRO -->
-# 📖 PORTFOLIO <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-Portfolio is a project built using HTML5 and CSS3.
-It shows my understanding of Gitflow,grid,figma and Linters.
+# 📖 Portfolio <a name="about-project"></a>
+
+- This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 ## 🛠 Built With <a name="built-with"></a>
-1. HTML
-2. CSS
-3. Linters
-### Tech Stack <a name="tech-stack"></a>
 
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
-</details>
-
-<!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-
-- [Live Demo Link]()
-
+- HTML
+- CSS
+- linter
+- Github Pages
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Key Features
+
+- Deploy the project using GitHub Pages😊👌
+- Responsive design💯
+- User friendly .🚀
+- Following the Figma design 😃👍
 
 
-<!-- Features -->
+## 🚀 Live Demo
 
-### Key Features <a name="key-features"></a>
-
-- **[Navigation bar in Header-Section]**
-- **[Homepage of Personal Portfolio]**
-- **[Built Work-Section]**
-- **[Built About-Section]**
-- **[Built Language-Section]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- You can see the live demo of the portfolio [Here](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first/)😊⤵️
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
+
+To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
-1. A Browser (Preferably Google Chrome)
-2. A Code Editor
-3. Internet Connection
-4. Git
+In order to run this project you need:
 
-<!-- SETUP -->
-### Setup
 
-Clone this repository to your desired folder using:
+Example command:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/Cheptoo21/Portfolio-setup-and-mobile-first.git
+1.use a browser
+2.use cable internet
 ```
-<!-- INSTALL -->
+ 
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  
+  git clone git@github.com:Cheptoo21/Portfolio-setup-and-mobile-first.git
+  cd Portfolio-setup-and-mobile-first
+
+
+```
+
 
 ### Install
 
-Install this project with the latest version of Git and a code editor.
+Install this project with:
+
+
+Example command:
+
+```sh
+  npm install
+```
+
 
 ### Usage
 
-In order to run the project open index.html with live server.
+To run the project, execute the following command:
+
+
+Example command:
+
+```sh
+- Open the index with live server.
+- Or if you don't have a live server extension open the index in the browser by clicking on the file .
+```
+
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests for the linter, run the following command:
 
-- To run tests run :
-- npx hint .
-- npx stylelint "\*_/_.{css,scss}"
+
+Example command:
+
+```sh
+npx hint .
+npx eslint .
+```
+
 
 ### Deployment
 
-You can deploy this project using:
-1.  A Code Editor
-2. Latest version of Git
+I deployed this project using:
+
+- Github Pages
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 ## 👥 Authors <a name="authors"></a>
-
-
 
 👤 **Cheptoo Patience**
 
-- GitHub: [@Cheptoo21](https://github.com/Cheptoo21)
-- Twitter: [@CheptooGyts](https://twitter.com/CheptooGyts)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/cheptoo-patience-73499015a)
-
+- GitHub: [Cheptoo Patience](https://github.com/Cheptoo21)
+- Twitter: [Cheptoo Patience](https://twitter.com/CheptooGyts)
+- LinkedIn: [Cheptoo Patience](https://www.linkedin.com/in/cheptoo-patience-73499015a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] **[Desktop Version]**
-- [ ] **[Application deploy]**
-- [ ] **[Evaluate accessibility (pair programming)]**
-- [ ] **[Validate contact form (pair programming)]**
-
-
-
+- [ ] Solve the accessibility issues.
+- [ ] Add more styling💯.
+- [ ] Add Popup window for the deatils of each project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTION -->
+<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [Isuues Pages](https://github.com/Cheptoo21/Portfolio-setup-and-mobile-first/issues)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--SUPPORT -->
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please give it some starts ⭐️⭐️⭐️⭐️⭐️
+
+If you like this project kindly give it a star⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Special acknowledgement to [@Omar-Muhamad](https://github.com/Omar-Muhamad) and [@microverseinc](https://github.com/microverseinc)
+
+I would like to thank Ekpenisi E Raphael for the immense support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQS -->
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ 
 
-- **How were the Linters utilised?**
+- How were the Linters utilised?
+  
+   - The Linters were utilised with the help of resources provided by @microverseinc.
 
-  - The Linters were utilised with the help of resources provided by [@microverseinc](https://github.com/microverseinc).
-
-- **What new features should be expected in the next release of the project?**
-
-  - We are currently working on adding **[Desktop Version**],**[Application deploy]**,**[Evaluate accessibility(pair programming)]**,[**Validate contact form (pair programming)]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- What new features should be expected in the next release of the project?
+   
+   - We are currently working on adding [Desktop Version],[Application deploy],[Evaluate accessibility(pair programming)],[Validate contact form (pair programming)]
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Cheptoo21/Portfolio-setup-and-mobile-first/blob/deployment/LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
