@@ -63,7 +63,7 @@ It shows my understanding of Gitflow,grid,figma and Linters.
 
 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first/)
 
 
 
@@ -129,9 +129,8 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
-1.  A Code Editor
-2. Latest version of Git
+- Project is deployed using [GitHub Pages](https://pages.github.com/)
+- [🚀 Live Demo Link Provided Above ⬆️](#live-demo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
