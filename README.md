@@ -63,7 +63,7 @@ It shows my understanding of Gitflow,grid,figma and Linters.
 
 
 
-- [Live Demo Link](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first/)
+- [Live Demo Link]()
 
 
 
