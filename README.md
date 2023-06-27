@@ -46,7 +46,7 @@
 ## 🚀 Live Demo
 
 - You can see the live demo of the portfolio [Here](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first/)😊⤵️
-- You can see the video of the presentation [Here](httpswww.loom.comshare6190ca684cad4198977216a52f4ab34csid=3faa2f18-b123-436c-a9b3-b367e5719b72)😊⤵️
+- You can see the video of the presentation [Here](https://www.loom.comshare6190ca684cad4198977216a52f4ab34csid=3faa2f18-b123-436c-a9b3-b367e5719b72)😊⤵️
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
