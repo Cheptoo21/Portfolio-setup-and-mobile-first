@@ -22,7 +22,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-- This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
+- This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML,CSS,JavaScript.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -30,6 +30,7 @@
 - CSS
 - linter
 - Github Pages
+- JavaScript
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -45,6 +46,7 @@
 ## 🚀 Live Demo
 
 - You can see the live demo of the portfolio [Here](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first/)😊⤵️
+- You can see the video of the presentation [Here](httpswww.loom.comshare6190ca684cad4198977216a52f4ab34csid=3faa2f18-b123-436c-a9b3-b367e5719b72)😊⤵️
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -144,9 +146,9 @@ I deployed this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Solve the accessibility issues.
-- [ ] Add more styling💯.
-- [ ] Add Popup window for the deatils of each project.
+- [ ] Validate contact form
+- [ ] Store data in the browser
+- [ ] Add Popup window for the details of each project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +158,7 @@ I deployed this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [Isuues Pages](https://github.com/Cheptoo21/Portfolio-setup-and-mobile-first/issues)
+Feel free to check the [Issues Pages](https://github.com/Cheptoo21/Portfolio-setup-and-mobile-first/issues)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -175,7 +177,7 @@ If you like this project kindly give it a star⭐️.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Ekpenisi E Raphael for the immense support.
+I would like to thank Lewis Hinga for the immense support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
