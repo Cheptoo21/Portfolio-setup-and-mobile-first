@@ -10,6 +10,14 @@ body {
   color: #172b4d;
 }
 
+html.noscroll {
+  overflow: hidden;
+}
+
+html.noscroll body {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: gray;
@@ -379,6 +387,11 @@ button:active {
     margin-top: -50%;
     margin-bottom: -80%;
   } */
+  .no-scroll {
+    overflow: hidden;
+    position: fixed;
+    height: 100vh;
+  }
 
   .hamburger {
     display: block;
@@ -391,6 +404,10 @@ button:active {
   .navbar.active {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .hamburger.active .stroke {
+    background-color: gray;
   }
 
   .hamburger.active .stroke:nth-child(2) {
@@ -407,14 +424,20 @@ button:active {
 
   .navbar_menu {
     position: fixed;
+    display: inline-block;
+    justify-content: space-between;
     left: -100%;
     top: 40px;
     flex-direction: column;
     text-align: left;
-    width: 100%;
-    gap: 20px;
+    width: 100vw;
+    height: 100vh;
     transition: 0.3s ease;
     background-color: #fff;
+  }
+
+  .navbar_menu_link {
+    padding: 20px 22px;
   }
 
   .navbar_menu.active {
