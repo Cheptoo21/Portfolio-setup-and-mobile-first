@@ -37,6 +37,7 @@
     
     <!-- Headline -->
     <section class="headline">
+        <div class="content-Wrap">
         <div class="headline_content">
             <div class="title">
                 <div>
@@ -305,7 +306,17 @@
 
             </ul>
         </div>
+    </div>>
     </section>
-    <script src="menu.js"></script>
+    <script src="menu.js">
+        var menu = document.getElementById("navbar_menu");
+        function openmenu() {
+            document.querySelector('body').classList.add('no-scroll')
+        }
+        function closemenu() {
+            document.querySelector('body').classList.remove('no-scroll')
+        }
+        
+    </script>
 </body>
 </html>
