@@ -23,7 +23,7 @@ const error = document.querySelector('.error');
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
-    error.textContent = 'Please ensure your email is in Lower case'; 
+    error.textContent = 'Please ensure your email is in Lower case';
   }
 });
 
