@@ -7,7 +7,21 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   navBar.classList.toggle('active');
 });
+
 document.querySelectorAll('.navbar_menu_link').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
+
+const form = document.querySelector('.contactForm');
+const email = document.getElementById('userEmail');
+const error = document.querySelector('.error');
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    error.textContent = "Please ensure your email is in Lower case";
+}
+else {
+  form.submit();
+}
+  });

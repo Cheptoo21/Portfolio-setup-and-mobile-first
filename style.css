@@ -334,6 +334,20 @@ button:active {
   margin: 5% 2%;
 }
 
+#userEmail::placeholder {
+  padding-left: 14px;
+}
+
+.error {
+  color: red;
+  margin-right: 30px;
+  padding: 10px 12px;
+  margin-top: 22px;
+  font-size: medium;
+  font-style: normal;
+  width: 60%;
+}
+
 .contactForm ul {
   list-style: none;
 }

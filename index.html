@@ -255,20 +255,21 @@
             <form action="https://formspree.io/f/moqzgvge" method="POST">
                 <ul>
                     <li>
-                        <input name="fullName" type="text" placeholder="Full name" maxlength="30" required>
+                        <input name="fullName" id="userName" type="text" placeholder="Full Name" maxlength="30" required>
                     </li>
                     <li>
-                        <input name="email" type="email" placeholder="Email address" required>
+                        <input name="email" id="userEmail" type="email" placeholder="Email address" required>
                     </li>
                     <li>
-                        <textarea name="messageBox" maxlength="500" cols="40" rows="5"
-                            placeholder="Hey I’d like to connect to..." required> </textarea>
-                    </li>
+                        <textarea name="user_Message" maxlength="500" cols="30" rows="4"
+                        placeholder="Hey I’d like to connect to..." required></textarea>
                     <li>
-                        <button type="submit" value="">Get in Touch</button>
+                        <button type="submit">Get in Touch</button>
                     </li>
+                    <span class="error"></span>
                 </ul>
             </form>
+               
 
         </div>
     </section>
@@ -309,7 +310,7 @@
     </div>>
     </section>
     <script src="menu.js">
-        var menu = document.getElementById("navbar_menu");
+        var menu = document.querySelector(".navbar_menu");
         function openmenu() {
             document.querySelector('body').classList.add('no-scroll')
         }
