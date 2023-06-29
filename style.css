@@ -10,14 +10,6 @@ body {
   color: #172b4d;
 }
 
-html.noscroll {
-  overflow: hidden;
-}
-
-html.noscroll body {
-  overflow: hidden;
-}
-
 a {
   text-decoration: none;
   color: gray;
@@ -421,8 +413,8 @@ button:active {
   .hamburger.active .stroke:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
-  .navbar_menu {
+.navbar_menu
+   {
     position: fixed;
     display: inline-block;
     justify-content: space-between;
