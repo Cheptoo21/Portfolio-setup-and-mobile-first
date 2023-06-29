@@ -16,7 +16,6 @@ document.querySelectorAll('.navbar_menu_link').forEach((n) => n.addEventListener
   body.classList.remove('no-scroll');
 }));
 
-
 // Local Storage //
 const nameInput = document.querySelector('#name-id');
 const emailInput = document.querySelector('#email-id');
@@ -53,4 +52,3 @@ form.addEventListener('submit', (event) => {
     error.textContent = 'Please ensure your email is in Lower case';
   }
 });
-
