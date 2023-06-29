@@ -11,17 +11,37 @@
 </head>
 
 <body>
-    <!-- Toolbar -->
+    
     <header>
-    <nav class="toolbar">
+
+    <nav class="navbar">
+        <ul class="navbar_menu">
+            <li class="navbar_menu_item">
+                <a href="#portfolio" class="navbar_menu_link">Portfolio</a>
+            </li>
+            <li class="navbar_menu_item">
+                <a href="#about" class="navbar_menu_link">About</a>
+            </li>
+            <li class="navbar_menu_item">
+                <a href="#contact" class="navbar_menu_link">Contact</a>
+            </li>
+
+   
         <button><img src="logo/Icon - Menu.png" alt="hamburger"></button>
         <ul>
-            <li> <a href="#portfolio">Portfolio</a> </li>
-            <li><a href="#about">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+           
+
+       
+        <div class="hamburger">
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+        </div>
     </nav>
     </header>
+
+       
+    
     <!-- Headline -->
     <section class="headline">
         <div class="headline_content">
@@ -215,7 +235,7 @@
                 </ul>
             </div>
             <div class="box">
-                <div> <img src="logo/icon-skills.png" alt="Skils"></div>
+                <div> <img src="logo/icon-skills.png" alt="Skills"></div>
                 <h3>Skils</h3>
                 <ul class="listMarginBottom">
                     <li>Database Management</li>
@@ -241,20 +261,21 @@
             <form action="https://formspree.io/f/xayzredb" method="POST">
                 <ul>
                     <li>
-                        <input name="fullName" type="text" placeholder="Full name" maxlength="30" required>
+                        <input name="fullName" id="userName" type="text" placeholder="Full Name" maxlength="30" required>
                     </li>
                     <li>
-                        <input name="email" type="email" placeholder="Email address" required>
+                        <input name="email" id="userEmail" type="email" placeholder="Email address" required>
                     </li>
                     <li>
-                        <textarea name="messageBox" maxlength="500" cols="40" rows="5"
-                            placeholder="Hey I’d like to connect to..." required> </textarea>
-                    </li>
+                        <textarea name="user_Message" maxlength="500" cols="30" rows="4"
+                        placeholder="Hey I’d like to connect to..." required></textarea>
                     <li>
-                        <button type="submit" value="">Get in Touch</button>
+                        <button type="submit">Get in Touch</button>
                     </li>
+                    <span class="error"></span>
                 </ul>
             </form>
+               
 
         </div>
     </section>
@@ -289,10 +310,11 @@
                 <li>
                     <a href="#"><img src="logo/angellist.png" alt=""></a>
                 </li>
-
             </ul>
         </div>
     </section>
+    <script src="menu.js">
+        
+    </script>
 </body>
-
 </html>
