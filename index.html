@@ -37,7 +37,6 @@
     
     <!-- Headline -->
     <section class="headline">
-        <div class="content-Wrap">
         <div class="headline_content">
             <div class="title">
                 <div>
@@ -252,16 +251,16 @@
             </h3>
         </div>
         <div class="contactForm">
-            <form action="https://formspree.io/f/moqzgvge" method="POST">
+            <form action="https://formspree.io/f/moqzgvge" method="POST" onsubmit="ftn(event)">
                 <ul>
                     <li>
-                        <input name="fullName" type="text" placeholder="Full name" maxlength="30" required>
+                        <input name="fullName" type="text" id="fName" placeholder="Full name" maxlength="30" required>
                     </li>
                     <li>
-                        <input name="email" type="email" placeholder="Email address" required>
+                        <input name="email" type="email" id="fEmail" placeholder="Email address" required>
                     </li>
                     <li>
-                        <textarea name="messageBox" maxlength="500" cols="40" rows="5"
+                        <textarea name="UserMsg" maxlength="500" cols="40" rows="5" id="UserMsg"
                             placeholder="Hey I’d like to connect to..." required> </textarea>
                     </li>
                     <li>
@@ -306,17 +305,8 @@
 
             </ul>
         </div>
-    </div>>
     </section>
     <script src="menu.js">
-        var menu = document.getElementById("navbar_menu");
-        function openmenu() {
-            document.querySelector('body').classList.add('no-scroll')
-        }
-        function closemenu() {
-            document.querySelector('body').classList.remove('no-scroll')
-        }
-        
     </script>
 </body>
 </html>

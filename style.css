@@ -70,6 +70,7 @@ button:active {
   display: flex;
   width: 251px;
   height: 24px;
+  cursor: pointer;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
@@ -382,15 +383,8 @@ button:active {
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
-  /* .socialIcons {
-    margin: 15px 0;
-    margin-top: -50%;
-    margin-bottom: -80%;
-  } */
   .no-scroll {
     overflow: hidden;
-    position: fixed;
-    height: 100vh;
   }
 
   .hamburger {
@@ -446,29 +440,34 @@ button:active {
 }
 
 @media screen and (min-width: 768px) {
-  /* TOOLBAR */
   .navbar {
     justify-content: center;
     position: absolute;
+    display: flex;
+    text-align: center;
     z-index: -1;
   }
 
-  .navbar ul {
-    width: 15%;
+  .navbar_menu {
+    width: 10%;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
   }
 
-  .navbar ul li a {
+  .navbar_menu_link {
     color: #344563;
-    justify-content: space-between;
-    padding: 10px 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px 5px;
+    cursor: pointer;
     font-style: normal;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 15px;
-    line-height: 20px;
   }
 
   /* HEADLINE */
