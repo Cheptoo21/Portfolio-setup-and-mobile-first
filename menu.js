@@ -13,6 +13,7 @@ document.querySelectorAll('.navbar_menu_link').forEach((n) => n.addEventListener
   navMenu.classList.remove('active');
 }));
 
+//form validation//
 const form = document.querySelector('.contactForm');
 const email = document.getElementById('userEmail');
 const error = document.querySelector('.error');
@@ -25,3 +26,63 @@ else {
   form.submit();
 }
   });
+
+  // popup window
+/*
+  const works = document.querySelector('.works_content');
+  const projects = [
+    {
+      id: 1,
+      title:
+      description:
+      technologies:
+      LiveLink:
+      SrcLink:
+      imgLink
+    },
+    {
+      id: 2,
+      title:
+      description:
+      technologies:
+      LiveLink:
+      SrcLink:
+      imgLink
+    },
+    {
+      id: 3,
+      title:
+      description:
+      technologies:
+      LiveLink:
+      SrcLink:
+      imgLink
+    },
+    {
+      id: 4,
+      title:
+      description:
+      technologies:
+      LiveLink:
+      SrcLink:
+      imgLink
+    },
+    {
+      id: 5,
+      title:
+      description:
+      technologies:
+      LiveLink:
+      SrcLink:
+      imgLink
+    },
+    {
+      id: 6,
+      title:
+      description:
+      technologies:
+      LiveLink:
+      SrcLink:
+      imgLink
+    },
+  ];*/
