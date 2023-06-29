@@ -469,6 +469,7 @@ button:active {
     list-style: none;
     display: flex;
     justify-content: space-between;
+
     text-align: center;
     align-items: center;
   }
@@ -479,11 +480,22 @@ button:active {
     align-items: center;
     text-align: center;
     padding: 8px 12px;
+    flex-direction: row;
+  }
+
+  .navbar_menu_item a {
+    color: #344563;
+    padding: 10px 12px;
     cursor: pointer;
     font-style: normal;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 15px;
+
+
+    line-height: 20px;
+    transition: 0.5s ease;
+
   }
 
   /* HEADLINE */
