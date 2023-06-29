@@ -469,7 +469,6 @@ button:active {
     list-style: none;
     display: flex;
     justify-content: space-between;
-
     text-align: center;
     align-items: center;
   }
@@ -491,11 +490,8 @@ button:active {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 15px;
-
-
     line-height: 20px;
     transition: 0.5s ease;
-
   }
 
   /* HEADLINE */
