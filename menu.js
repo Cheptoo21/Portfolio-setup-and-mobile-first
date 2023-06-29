@@ -8,6 +8,7 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   navBar.classList.toggle('active');
   body.classList.add('no-scroll');
+  body.classList.add('no-scroll');
 });
 document.querySelectorAll('.navbar_menu_link').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
