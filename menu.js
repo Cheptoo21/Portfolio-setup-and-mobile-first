@@ -26,4 +26,3 @@ form.addEventListener('submit', (event) => {
     error.textContent = 'Please ensure your email is in Lower case';
   }
 });
-
