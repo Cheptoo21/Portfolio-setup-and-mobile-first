@@ -10,14 +10,6 @@ body {
   color: #172b4d;
 }
 
-html.noscroll {
-  overflow: hidden;
-}
-
-html.noscroll body {
-  overflow: hidden;
-}
-
 a {
   text-decoration: none;
   color: gray;
@@ -403,8 +395,6 @@ button:active {
   } */
   .no-scroll {
     overflow: hidden;
-    position: fixed;
-    height: 100vh;
   }
 
   .hamburger {
@@ -436,9 +426,17 @@ button:active {
     transform: translateY(-8px) rotate(-45deg);
   }
 
+  .navbar_menu.active .content-Wrap {
+    position: fixed;
+    overflow: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+  }
+
   .navbar_menu {
     position: fixed;
     display: inline-block;
+    overflow: hidden;
     justify-content: space-between;
     left: -100%;
     top: 40px;
@@ -456,6 +454,8 @@ button:active {
 
   .navbar_menu.active {
     left: 0;
+    overflow-y: hidden;
+    position: fixed;
   }
 }
 
@@ -472,17 +472,19 @@ button:active {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
   }
 
-  .navbar ul li a {
+  .navbar_menu_item a {
     color: #344563;
-    justify-content: space-between;
     padding: 10px 12px;
+    cursor: pointer;
     font-style: normal;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
+    transition: 0.5s ease;
   }
 
   /* HEADLINE */
