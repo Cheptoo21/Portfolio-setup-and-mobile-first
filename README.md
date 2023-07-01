@@ -146,7 +146,7 @@ I deployed this project using:
 
 - [ ] Validate contact form
 - [ ] Store data in the browser
-- [ ] Add Popup window for the details of each project.
+      
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +187,7 @@ I would like to thank Lewis Hinga for the immense support.
 
 - What new features should be expected in the next release of the project?
    
-   - We are currently working on adding [Desktop Version],[Application deploy],[Evaluate accessibility(pair programming)],[Validate contact form (pair programming)]
+   - We are currently working on adding [Validate contact form (pair programming)]
 
 <!-- LICENSE -->
 
