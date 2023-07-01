@@ -42,7 +42,6 @@ if (savedData) {
   textInput.value = savedData.text;
 }
 
-
 const myWorksSection = document.querySelector('.works_content');
 const projectList = [
   {
