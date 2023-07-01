@@ -41,8 +41,6 @@ if (savedData) {
   emailInput.value = savedData.email;
   textInput.value = savedData.text;
 }
-
-
 // popup //
 
 // const popup = document.querySelector('.popup_window');
@@ -257,4 +255,3 @@ form.addEventListener('submit', (event) => {
     error.textContent = 'Please ensure your email is in Lower case';
   }
 });
-
