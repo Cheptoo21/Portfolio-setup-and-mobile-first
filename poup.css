@@ -1,0 +1,224 @@
+.popup_window {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  top: 1%;
+  bottom: 0;
+  overflow: auto;
+}
+
+.popup_skills_mob li {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+  background-color: #ebecf0;
+  color: #344563;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-right: 1%;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 13px;
+  justify-content: center;
+  width: 80%;
+  padding: 75px 0;
+  margin-left: 8%;
+  background-color: #fff;
+}
+
+.popup .mob_snap {
+  width: 90%;
+  text-align: center;
+  align-items: center;
+}
+
+.popup_btn_src img {
+  color: #fff;
+  width: 18px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.popup_btn_live img {
+  color: #fff;
+  width: 24px;
+  height: 24px;
+}
+
+.popup .desktop_snap {
+  display: none;
+}
+
+.popup_heading h3 {
+  display: inline-block;
+  color: #172b4d;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.popup_heading {
+  width: 60vw;
+  margin-top: 20px;
+}
+
+.popup_skills_desktop {
+  display: none;
+}
+
+.popup_skills_mob {
+  display: flex;
+  margin: 15px 0;
+  color: #3a4a42;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+}
+
+.popup-page {
+  width: 80%;
+  margin-top: 22px;
+}
+
+.popup_skills ul {
+  list-style: none;
+}
+
+.popup_description_Mob p {
+  margin: 12px 0;
+  color: #344563;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.popup_description_Mob {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.popup_description_Desktop {
+  display: none;
+}
+
+.popup_btn {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.popup_btn button {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  font-size: 1em;
+  gap: 5px;
+}
+
+.popup_btn button a {
+  color: #fff;
+}
+
+.close {
+  position: absolute;
+  right: 16%;
+  cursor: pointer;
+  width: 24px;
+  font-size: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  color: #67798e;
+  margin-right: 50px;
+  background-color: #ebecf0;
+  top: 2%;
+}
+
+@media screen and (min-width: 768px) {
+  .popup_description_Desktop {
+    color: #344563;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .popup .mob_snap {
+    display: none;
+  }
+
+  .popup .desktop_snap {
+    display: block;
+  }
+
+  .popup .popup_heading {
+    width: 60%;
+    padding-right: 50px;
+  }
+
+  .card_content ul li {
+    color: #172b4d;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .popup .popup_heading h3 {
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 32px;
+  }
+
+  .popup .popup_skills_desktop {
+    color: #344563;
+    font-size: 12px;
+    display: flex;
+    margin: 25px 0;
+    gap: 10px;
+  }
+
+  .popup_description_Mob {
+    display: none;
+  }
+
+  .popup .popup_skills_mob {
+    display: none;
+  }
+
+  .popup .popup_skills_desktop li {
+    padding: 8px 12px;
+    align-items: center;
+    background-color: #ebecf0;
+    color: #344563;
+    border-radius: 8px;
+  }
+
+  .popup_btn {
+    position: absolute;
+    top: 732px;
+    right: 200px;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .close {
+    display: none;
+  }
+}
