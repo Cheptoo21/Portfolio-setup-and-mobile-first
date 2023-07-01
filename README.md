@@ -7,15 +7,22 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -32,6 +39,17 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="(https://www.w3schools.com/js/)">JavaScript</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+  </ul>
+</details>
 
 ## Key Features
 
