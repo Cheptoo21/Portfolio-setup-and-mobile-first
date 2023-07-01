@@ -42,6 +42,7 @@ if (savedData) {
   textInput.value = savedData.text;
 }
 
+
 // popup //
 
 // const popup = document.querySelector('.popup_window');
@@ -245,3 +246,15 @@ projectList.forEach((project) => {
     showpop3.style.display = 'none';
   });
 });
+
+// form validation //
+const form = document.querySelector('.contactForm');
+const email = document.getElementById('userEmail');
+const error = document.querySelector('.error');
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    error.textContent = 'Please ensure your email is in Lower case';
+  }
+});
+
