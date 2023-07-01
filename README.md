@@ -7,15 +7,22 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -28,12 +35,21 @@
 
 - HTML
 - CSS
-- linter
-- Github Pages
 - JavaScript
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="(https://www.w3schools.com/js/)">JavaScript</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+  </ul>
+</details>
 
 ## Key Features
 
@@ -45,7 +61,7 @@
 
 ## 🚀 Live Demo
 
-- You can see the live demo of the portfolio [Here](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first/)😊⤵️
+- You can see the live demo of the portfolio [Here](https://cheptoo21.github.io/Portfolio-setup-and-mobile-first)😊⤵️
 - You can see the video of the presentation [Here](https://www.loom.com/share/6190ca684cad4198977216a52f4ab34c?sid=3faa2f18-b123-436c-a9b3-b367e5719b72)😊⤵️
 <!-- GETTING STARTED -->
 
@@ -148,7 +164,7 @@ I deployed this project using:
 
 - [ ] Validate contact form
 - [ ] Store data in the browser
-- [ ] Add Popup window for the details of each project.
+      
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +205,7 @@ I would like to thank Lewis Hinga for the immense support.
 
 - What new features should be expected in the next release of the project?
    
-   - We are currently working on adding [Desktop Version],[Application deploy],[Evaluate accessibility(pair programming)],[Validate contact form (pair programming)]
+   - We are currently working on adding [Validate contact form (pair programming)]
 
 <!-- LICENSE -->
 
