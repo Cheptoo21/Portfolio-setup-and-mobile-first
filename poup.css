@@ -97,6 +97,12 @@
 
 .popup_description_Mob p {
   margin: 12px 0;
+  color: #344563;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .popup_description_Mob {
@@ -131,14 +137,14 @@
 
 .close {
   position: absolute;
-  right: 12%;
+  right: 16%;
   cursor: pointer;
   width: 24px;
   font-size: 32px;
   padding: 4px 15px;
   border-radius: 6px;
   color: #67798e;
-  margin-right: 30px;
+  margin-right: 50px;
   background-color: #ebecf0;
   top: 2%;
 }
