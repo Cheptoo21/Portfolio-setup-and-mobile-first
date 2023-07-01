@@ -28,8 +28,6 @@
 
 - HTML
 - CSS
-- linter
-- Github Pages
 - JavaScript
 
 
