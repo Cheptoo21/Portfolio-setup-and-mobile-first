@@ -8,7 +8,7 @@
   overflow: auto;
 }
 
-.popupSkillsMobile li {
+.popup_skills_mob li {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -26,24 +26,23 @@
   align-items: center;
   border-radius: 13px;
   justify-content: center;
-  width: 70%;
+  width: 80%;
   padding: 75px 0;
   margin-left: 8%;
   background-color: #fff;
 }
 
 .popup .mob_snap {
-  display: flex;
   width: 90%;
-  align-items: center;
   text-align: center;
+  align-items: center;
 
-  /* height: 220px;
+  /* display: flex;
+   height: 220px;
   padding: 8px 8px 172px 263px;
   justify-content: flex-end;
   align-items: center;
   border-radius: 8px; */
-  background: url("logo/mobile\ snap.png"), lightgray 50% / cover no-repeat;
 }
 
 .popup_btn_src img {
@@ -79,7 +78,7 @@
   margin-top: 20px;
 }
 
-.popup_skills_mob_desktop {
+.popup_skills_desktop {
   display: none;
 }
 
@@ -100,25 +99,20 @@
   margin-top: 22px;
 }
 
-.popup_skills {
+/* .popup_skills {
   display: flex;
   flex-direction: column;
   background: white;
   width: 375px;
   height: 882px;
   margin: 12px 0;
-}
+} */
 
 .popup_skills ul {
   list-style: none;
 }
 
 .popup_description_Mob p {
-  display: flex;
-  width: 311px;
-  height: 313px;
-  flex-direction: column;
-  color: #344563;
   margin: 12px 0;
 }
 
@@ -130,30 +124,27 @@
   line-height: 24px;
 }
 
+.popup_description_Desktop {
+  display: none;
+}
+
 .popup_btn {
   display: flex;
   width: 80%;
   justify-content: space-between;
-  align-items: flex-start;
+
+  /*  align-items: flex-start;
   border-radius: 4px;
   gap: 12px;
-  background: #36b37f;
+  background: #36b37f; */
 }
 
-.popup_btn_live {
+.popup_btn button {
   display: flex;
   align-items: center;
   padding: 12px 16px;
   font-size: 1em;
-  font-style: normal;
-}
-
-.popup_btn_src {
-  display: flex;
-  align-items: center;
-  padding: 12px;
-  font-size: 1em;
-  font-style: normal;
+  gap: 5px;
 }
 
 .popup_btn button a {
@@ -161,8 +152,8 @@
 }
 
 .close {
-  width: 24px;
-  height: 24px;
+  /* width: 24px;
+  height: 24px; */
   position: absolute;
   right: 12%;
   cursor: pointer;
@@ -178,8 +169,6 @@
     color: #344563;
     display: block;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
   }
@@ -192,49 +181,42 @@
     display: block;
   }
 
-  .popup_heading {
-    display: flex;
+  .popup .popup_heading {
     width: 60%;
-    flex-direction: column;
     padding-right: 50px;
   }
 
-  .popup_heading h3 {
+  .card_content ul li {
+    color: #172b4d;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .popup .popup_heading h3 {
     font-weight: 700;
     line-height: 44px;
     font-size: 32px;
   }
 
-  .popup_skills .desktop_skills {
+  .popup .popup_skills_desktop {
     color: #344563;
     font-size: 12px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.36px;
-  }
-
-  .popup_skills ul {
-    list-style: none;
+    display: flex;
+    margin: 25px 0;
+    gap: 10px;
   }
 
   .popup_description_Mob {
     display: none;
   }
 
-  .popup_skills_mob {
+  .popup .popup_skills_mob {
     display: none;
   }
 
-  .popup_skills_desktop {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 25px 0;
-  }
-
-  .popup_skills_desktop li {
+  .popup .popup_skills_desktop li {
     padding: 8px 12px;
     align-items: center;
     background-color: #ebecf0;
@@ -243,25 +225,9 @@
   }
 
   .popup_btn {
-    display: flex;
     position: absolute;
     top: 732px;
     right: 200px;
     width: 20%;
-    padding: 12px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #36b37e;
-    font-size: 15px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-  }
-
-  .popup_btn a {
-    color: #fff;
-    text-align: center;
   }
 }

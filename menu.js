@@ -43,56 +43,55 @@ if (savedData) {
 }
 
 // popup //
-/*
 
-const popup = document.querySelector('.popup_window');
-const closeBtn = document.querySelector('.close');
-const pop = document.querySelector('.pop');
+// const popup = document.querySelector('.popup_window');
+// const closeBtn = document.querySelector('.close');
+// const pop = document.querySelector('.pop');
 
-document.querySelectorAll('.see-proj').forEach((n) => n.addEventListener('click', () => {
-  popup.style.display = 'block';
-  pop.style.filter = 'blur(5px)';
-}));
+// document.querySelectorAll('.see-proj').forEach((n) => n.addEventListener('click', () => {
+//   popup.style.display = 'block';
+//   pop.style.filter = 'blur(5px)';
+// }));
 
-function close() {
-  popup.style.display = 'none';
-  pop.style.filter = 'blur(0px)';
-}
-closeBtn.addEventListener('click', close);
+// function close() {
+//   popup.style.display = 'none';
+//   pop.style.filter = 'blur(0px)';
+// }
+// closeBtn.addEventListener('click', close);
 
-function closePop(event) {
-  if (event.className === 'popup_window') {
-    popup.style.display = 'none';
-    pop.style.filter = 'blur(0px)';
-  }
-}
-popup.addEventListener('click', closePop);
+// function closePop(event) {
+//   if (event.target.className === 'popup_window') {
+//     popup.style.display = 'none';
+//     pop.style.filter = 'blur(0px)';
+//   }
+// }
+// popup.addEventListener('click', closePop);
 
-];
-// Event listener for See Project Button:
-/*projectArr.forEach((project) => {
-  const showBtn = document.getElementById(`project-${project.id}`);
-  showBtn.addEventListener('click', () => {
-    const showPop = document.getElementById(`popup-${project.id}`);
-    showPop.style.display = 'flex';
-  });
-});
+// ];
+// // Event listener for See Project Button:
+// /*projectArr.forEach((project) => {
+//   const showBtn = document.getElementById(`project-${project.id}`);
+//   showBtn.addEventListener('click', () => {
+//     const showPop = document.getElementById(`popup-${project.id}`);
+//     showPop.style.display = 'flex';
+//   });
+// });
 
-projectArr.forEach((project) => {
-  const closeBtn = document.getElementById(`closeBtn-${project.id}`);
-  closeBtn.addEventListener('click', () => {
-    const showpop2 = document.getElementById(`popup-${project.id}`);
-    showpop2.style.display = 'none';
-  });
-});
+// projectArr.forEach((project) => {
+//   const closeBtn = document.getElementById(`closeBtn-${project.id}`);
+//   closeBtn.addEventListener('click', () => {
+//     const showpop2 = document.getElementById(`popup-${project.id}`);
+//     showpop2.style.display = 'none';
+//   });
+// });
 
-projectArr.forEach((project) => {
-  const deskCloseBtn = document.getElementById(`deskCloseBtn-${project.id}`);
-  deskCloseBtn.addEventListener('click', () => {
-    const showpop3 = document.getElementById(`popup-${project.id}`);
-    showpop3.style.display = 'none';
-  });
-});*/
+// projectArr.forEach((project) => {
+//   const deskCloseBtn = document.getElementById(`deskCloseBtn-${project.id}`);
+//   deskCloseBtn.addEventListener('click', () => {
+//     const showpop3 = document.getElementById(`popup-${project.id}`);
+//     showpop3.style.display = 'none';
+//   });
+// });
 
 const myWorksSection = document.querySelector('.works_content');
 const projectList = [
